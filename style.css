@@ -1,0 +1,111 @@
+.myDiv {
+  border: 5px outset red;
+  background-image: linear-gradient(#FFFF40, #FFFFBC);    
+  text-align: center;
+  max-width: 25%;
+  margin: 0 auto;
+  min-width: 25%;
+  border-radius: 40px;
+}
+
+.a {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  margin-bottom: 60px;
+}
+
+h1{
+	text-align: center;
+	font-family: noto naskh arabic;
+	font-weight: 50;
+}
+
+h2{
+	text-align: center;
+	font-family: oswald;
+}
+
+h2.aa{
+	font-size: 150px;
+	font-family: lateef;
+	font-weight: 50;
+	margin-top: -40px;
+	margin-bottom: -20px;
+}
+
+p{
+	text-align: center;
+}
+
+p.a{
+	font-size: 30px;
+}
+
+img{
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+/* Specifies the size of the audio container */
+audio {
+  width: 100px;
+  height: 35px;
+  border: 3px solid salmon;
+  border-radius: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+  -webkit-justify-content: center;
+  height: 35px;
+}
+
+/* Removes the timeline */
+audio::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
+/* Removes the time stamp */
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
+body {
+	margin: 0;
+	background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+  font-family: oswald;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
